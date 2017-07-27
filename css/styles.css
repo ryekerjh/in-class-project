@@ -1,0 +1,182 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,700i,900|Permanent+Marker');
+
+/* UNIVERSALS */
+* {
+    box-sizing: border-box;    
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+p, a {
+    font-family: 'Lato', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    position: relative;
+}
+
+#logo-img {
+    height: 150px;
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    width: 550px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+nav ul {
+    float: right;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 24px;
+    padding: 5%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#home-link {
+    background-color: rgb(255, 0, 230);
+    color: #fff;
+}
+
+#about-link {
+    background-color: rgb(0, 0, 170);
+    color: #e7e7e7;
+}
+
+#contact-link {
+    background-color: rgb(230, 140, 67);
+    color: #e40007;
+}
+
+/*Hero Section Begins*/
+
+#hero {
+    height: 400px;
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#hero h2 {
+    font-size: 52px;
+    color: #e40007;
+    text-align: center;
+    position: relative;
+    top: 45%;
+    margin: 0;
+}
+
+/*Sidebar section begins*/
+aside {
+    height: 450px;
+    background-color: #ffff00;
+    border: 2px solid #000;
+    width: 35%;
+    text-align: center;
+    font-size: 32px;
+    float: left;
+}
+
+#blog-links {
+    height: 100%;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+#blog-links a {
+    color: #ff00ff;
+    display: block;
+    height: 25%;
+}
+
+#blog-links li {
+    border: 1px solid #00ff00;
+    color: #000;
+    height: 100%;
+}
+
+#blog-links li:hover {
+    background-color: #e7e7e7;
+    font-weight: 900;
+}
+
+/* Main Section Begins */ 
+main {
+    float: left;
+    width: 65%;
+    height: 450px;
+    overflow: auto;
+}
+
+main h1 {
+    letter-spacing: 8px;
+}
+
+#main-text {
+    font-size: 1.5em;
+    line-height: 35px;
+    padding: 0px 16px;
+}
+
+/*FOOTER STYLES*/
+footer {
+    background-color: #333;
+    clear: both;
+    padding: 24px 0px;
+}
+
+.fa {
+    color: #e400067;
+    margin: 0 10px;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-twitch {
+    color: #6441a5;
+}
+
+#copyright {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+

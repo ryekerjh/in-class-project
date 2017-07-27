@@ -1,0 +1,71 @@
+#logo-img {
+    box-shadow: 50px 100px 10px #333;
+}
+
+/* HERO Section */
+#about-hero {
+    height: 350px;
+    width: 80%;
+    background-image: url('http://img10.deviantart.net/2c24/i/2016/021/c/3/enterprise_vs_star_destroyer_by_lusitania25-d9osee1.jpg');
+    background-size: cover;
+    background-position: center;
+    float: left;
+    /*TODO: Come back and resize image with Pixlr*/
+}
+
+#about-hero~h1 {
+    width: 20%;
+    float: right;
+    margin-top: 8%;
+    text-shadow: -2px -2px 4px #333;
+}
+
+video {
+    height: 400px;
+    width: 600px;
+}
+
+/*Column styles*/
+.column {
+    width: 33%;/*approx*/
+    height: 400px;
+    float: left;
+    padding: 0px 16px;
+    position: relative;
+}
+
+.column p {
+    text-align: justify;
+    height: 260px;
+    overflow: scroll;
+}
+
+.column button {
+    color: #4eeffe;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 0px;
+    left: 35%;
+}
+
+#col-1 {
+    clear: both;
+}
+
+#col-1 button {
+    background-color: #ff0000;
+}
+
+#col-2 button {
+    background-color: #f7f7f7;
+}
+
+#col-3 button {
+    background-color: #00ffff;
+}
+
+#col-1 button:hover {
+    font-size: 20px;
+}
